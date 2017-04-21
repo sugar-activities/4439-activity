@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:install="http://openoffice.org/2004/installation" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="Common" oor:package="org.openoffice.Office">
+  <node oor:name="View">
+    <node oor:name="Localisation">
+      <prop oor:name="AutoMnemonic">
+        <value xml:lang="es">true</value>
+      </prop>
+      <prop oor:name="DialogScale">
+        <value xml:lang="es">10</value>
+      </prop>
+    </node>
+  </node>
+  <node oor:name="Menus">
+    <node oor:name="New">
+      <node oor:name="m0">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Documento de texto</value>
+        </prop>
+      </node>
+      <node oor:name="m1">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Hoja de cálculo</value>
+        </prop>
+      </node>
+      <node oor:name="m2">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Presentación</value>
+        </prop>
+      </node>
+      <node oor:name="m3">
+        <prop oor:name="Title">
+          <value xml:lang="es">D~ibujo</value>
+        </prop>
+      </node>
+      <node oor:name="m4">
+        <prop oor:name="Title">
+          <value xml:lang="es">Base de datos</value>
+        </prop>
+      </node>
+      <node oor:name="m6">
+        <prop oor:name="Title">
+          <value xml:lang="es">Do~cumento HTML</value>
+        </prop>
+      </node>
+      <node oor:name="m7">
+        <prop oor:name="Title">
+          <value xml:lang="es">Documento de formulario ~XML</value>
+        </prop>
+      </node>
+      <node oor:name="m8">
+        <prop oor:name="Title">
+          <value xml:lang="es">Documento m~aestro</value>
+        </prop>
+      </node>
+      <node oor:name="m10">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Fórmula</value>
+        </prop>
+      </node>
+      <node oor:name="m11">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Etiquetas</value>
+        </prop>
+      </node>
+      <node oor:name="m12">
+        <prop oor:name="Title">
+          <value xml:lang="es">Tarjetas de pr~esentación</value>
+        </prop>
+      </node>
+      <node oor:name="m14">
+        <prop oor:name="Title">
+          <value xml:lang="es">Plantillas y d~ocumentos</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Wizard">
+      <node oor:name="m0">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Carta...</value>
+        </prop>
+      </node>
+      <node oor:name="m1">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Fax...</value>
+        </prop>
+      </node>
+      <node oor:name="m2">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Agenda...</value>
+        </prop>
+      </node>
+      <node oor:name="m5">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Presentación...</value>
+        </prop>
+      </node>
+      <node oor:name="m7">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Página web...</value>
+        </prop>
+      </node>
+      <node oor:name="m11">
+        <prop oor:name="Title">
+          <value xml:lang="es">~Convertidor de documentos...</value>
+        </prop>
+      </node>
+      <node oor:name="m12">
+        <prop oor:name="Title">
+          <value xml:lang="es">Convertidor de ~euros...</value>
+        </prop>
+      </node>
+      <node oor:name="m14">
+        <prop oor:name="Title">
+          <value xml:lang="es">Origen de datos de direcciones...</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

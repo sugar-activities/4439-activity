@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.3.2
+Terminal=false
+Icon=ooo4kids13-ooo4kids
+Type=Application
+Categories=Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-MoreApplications-Office;
+Exec=ooo4kids1.3.2 %U
+MimeType=application/vnd.oasis.opendocument.database;application/vnd.sun.xml.base;
+Name=OOo4Kids 1.3.2
+GenericName=
+GenericName[en]=Office Suite for 7-12
+GenericName[fr]=Suite bureautique complète pour les 7-12
+Comment=Office suite for 7-12.
+Comment[en]=Office Suite for 7-12

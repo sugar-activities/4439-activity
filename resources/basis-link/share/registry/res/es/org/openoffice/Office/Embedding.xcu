@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:install="http://openoffice.org/2004/installation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:package="org.openoffice.Office" oor:name="Embedding">
+  <node oor:name="Verbs">
+    <node oor:name="SHOW">
+      <prop oor:name="VerbUIName">
+        <value xml:lang="es">~Editar</value>
+      </prop>
+    </node>
+    <node oor:name="OPEN">
+      <prop oor:name="VerbUIName">
+        <value xml:lang="es">A~brir</value>
+      </prop>
+    </node>
+    <node oor:name="PROPERTIES">
+      <prop oor:name="VerbUIName">
+        <value xml:lang="es">Prop~iedades...</value>
+      </prop>
+    </node>
+    <node oor:name="SAVECOPYAS">
+      <prop oor:name="VerbUIName">
+        <value xml:lang="es">Guardar copia ~como...</value>
+      </prop>
+    </node>
+  </node>
+  <node oor:name="ObjectNames">
+    <node oor:name="Calc">
+      <prop oor:name="ObjectUIName">
+        <value xml:lang="es">%PRODUCTNAME %PRODUCTVERSION Hoja de cálculo</value>
+      </prop>
+    </node>
+    <node oor:name="Chart">
+      <prop oor:name="ObjectUIName">
+        <value xml:lang="es">%PRODUCTNAME %PRODUCTVERSION Gráfico</value>
+      </prop>
+    </node>
+    <node oor:name="Draw">
+      <prop oor:name="ObjectUIName">
+        <value xml:lang="es">%PRODUCTNAME %PRODUCTVERSION Dibujo</value>
+      </prop>
+    </node>
+    <node oor:name="Impress">
+      <prop oor:name="ObjectUIName">
+        <value xml:lang="es">%PRODUCTNAME %PRODUCTVERSION Presentación</value>
+      </prop>
+    </node>
+    <node oor:name="Math">
+      <prop oor:name="ObjectUIName">
+        <value xml:lang="es">%PRODUCTNAME %PRODUCTVERSION Fórmula</value>
+      </prop>
+    </node>
+    <node oor:name="Writer">
+      <prop oor:name="ObjectUIName">
+        <value xml:lang="es">%PRODUCTNAME %PRODUCTVERSION Texto</value>
+      </prop>
+    </node>
+  </node>
+</oor:component-data>

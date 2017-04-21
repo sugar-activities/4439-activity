@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:install="http://openoffice.org/2004/installation" xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:package="org.openoffice.Office" oor:name="PresenterScreen">
+  <node oor:name="PresenterScreenSettings">
+    <node oor:name="ToolBars">
+      <node oor:name="ToolBar">
+        <node oor:name="Entries">
+          <node oor:name="d">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="es">Diapositiva</value>
+              </prop>
+            </node>
+          </node>
+          <node oor:name="l">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="es">Ayuda</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node oor:name="NotesToolBar">
+        <node oor:name="Entries">
+          <node oor:name="a">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="es">Escala</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node oor:name="Buttons">
+      <node oor:name="SlideSorterCloser">
+        <prop oor:name="Text">
+          <value xml:lang="es">Cerrar</value>
+        </prop>
+      </node>
+      <node oor:name="NotesViewCloser">
+        <prop oor:name="Text">
+          <value xml:lang="es">Cerrar</value>
+        </prop>
+      </node>
+      <node oor:name="HelpViewCloser">
+        <prop oor:name="Text">
+          <value xml:lang="es">Cerrar</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="HelpView">
+      <node oor:name="HelpStrings">
+        <node oor:name="a">
+          <prop oor:name="Left">
+            <value xml:lang="es">Clic derecho, flecha izquierda o abajo, barra espaciadora, avanzar página, intro, retorno 'N'</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="es">Siguiente diapositiva, o efecto siguiente</value>
+          </prop>
+        </node>
+        <node oor:name="b">
+          <prop oor:name="Left">
+            <value xml:lang="es">Clic derecho, izquierdo, flecha izquierda o arriba, avanzar página, retroceso, 'P'</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="es">Diapositiva previa o efecto prévio</value>
+          </prop>
+        </node>
+        <node oor:name="d">
+          <prop oor:name="Left">
+            <value xml:lang="es"/>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="es">Primer diapositiva</value>
+          </prop>
+        </node>
+        <node oor:name="e">
+          <prop oor:name="Left">
+            <value xml:lang="es">Fin</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="es">Última diapositiva</value>
+          </prop>
+        </node>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

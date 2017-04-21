@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="DataAccess" oor:package="org.openoffice.Office">
+  <node oor:name="DriverSettings">
+    <node oor:name="com.sun.star.comp.sdbc.MozabDriver">
+      <node oor:name="MozillaPreferences">
+        <prop oor:name="PabDescription">
+          <value xml:lang="es">Libreta de direcciones personal</value>
+        </prop>
+        <prop oor:name="HisDescription">
+          <value xml:lang="es">Direcciones obtenidas</value>
+        </prop>
+      </node>
+      <node oor:name="ColumnAliases">
+        <prop oor:name="FirstName">
+          <value xml:lang="es">Nombres</value>
+        </prop>
+        <prop oor:name="LastName">
+          <value xml:lang="es">Apellidos</value>
+        </prop>
+        <prop oor:name="DisplayName">
+          <value xml:lang="es">Mostrar nombre</value>
+        </prop>
+        <prop oor:name="NickName">
+          <value xml:lang="es">Apodo</value>
+        </prop>
+        <prop oor:name="PrimaryEmail">
+          <value xml:lang="es">Correo-e</value>
+        </prop>
+        <prop oor:name="SecondEmail">
+          <value xml:lang="es">Correo-e (2)</value>
+        </prop>
+        <prop oor:name="PreferMailFormat">
+          <value xml:lang="es">Formato de correo</value>
+        </prop>
+        <prop oor:name="WorkPhone">
+          <value xml:lang="es">Teléfono (trabajo)</value>
+        </prop>
+        <prop oor:name="HomePhone">
+          <value xml:lang="es">Teléfono (particular)</value>
+        </prop>
+        <prop oor:name="FaxNumber">
+          <value xml:lang="es">Fax</value>
+        </prop>
+        <prop oor:name="PagerNumber">
+          <value xml:lang="es">Busca</value>
+        </prop>
+        <prop oor:name="CellularNumber">
+          <value xml:lang="es">Móvil</value>
+        </prop>
+        <prop oor:name="HomeAddress">
+          <value xml:lang="es">Dirección 1</value>
+        </prop>
+        <prop oor:name="HomeAddress2">
+          <value xml:lang="es">Dirección 2</value>
+        </prop>
+        <prop oor:name="HomeCity">
+          <value xml:lang="es">Ciudad</value>
+        </prop>
+        <prop oor:name="HomeState">
+          <value xml:lang="es">Estado/Provincia</value>
+        </prop>
+        <prop oor:name="HomeZipCode">
+          <value xml:lang="es">C.P.</value>
+        </prop>
+        <prop oor:name="HomeCountry">
+          <value xml:lang="es">País</value>
+        </prop>
+        <prop oor:name="WorkAddress">
+          <value xml:lang="es">Direc. trabajo</value>
+        </prop>
+        <prop oor:name="WorkAddress2">
+          <value xml:lang="es">Direc. trabajo 2</value>
+        </prop>
+        <prop oor:name="WorkCity">
+          <value xml:lang="es">Ciudad (trabajo)</value>
+        </prop>
+        <prop oor:name="WorkState">
+          <value xml:lang="es">Provincia (trabajo)</value>
+        </prop>
+        <prop oor:name="WorkZipCode">
+          <value xml:lang="es">C.P. (trabajo)</value>
+        </prop>
+        <prop oor:name="WorkCountry">
+          <value xml:lang="es">País (trabajo)</value>
+        </prop>
+        <prop oor:name="JobTitle">
+          <value xml:lang="es">Título</value>
+        </prop>
+        <prop oor:name="Department">
+          <value xml:lang="es">Departamento</value>
+        </prop>
+        <prop oor:name="Company">
+          <value xml:lang="es">Empresa</value>
+        </prop>
+        <prop oor:name="WebPage1">
+          <value xml:lang="es">Página web (trabajo)</value>
+        </prop>
+        <prop oor:name="WebPage2">
+          <value xml:lang="es">Página web (priv.)</value>
+        </prop>
+        <prop oor:name="BirthYear">
+          <value xml:lang="es">Año nacimiento</value>
+        </prop>
+        <prop oor:name="BirthMonth">
+          <value xml:lang="es">Mes nacimiento</value>
+        </prop>
+        <prop oor:name="BirthDay">
+          <value xml:lang="es">Día nacimiento</value>
+        </prop>
+        <prop oor:name="Custom1">
+          <value xml:lang="es">Personalizado 1</value>
+        </prop>
+        <prop oor:name="Custom2">
+          <value xml:lang="es">Personalizado 2</value>
+        </prop>
+        <prop oor:name="Custom3">
+          <value xml:lang="es">Personalizado 3</value>
+        </prop>
+        <prop oor:name="Custom4">
+          <value xml:lang="es">Personalizado 4</value>
+        </prop>
+        <prop oor:name="Notes">
+          <value xml:lang="es">Observaciones</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

@@ -1,0 +1,8 @@
+[Activity]
+name = OOo4Kids
+bundle_id = ooo.educ.OOo4KidsActivity
+icon = activity-ooo4kids
+activity_version = 13
+host_version = 1
+show_launcher = yes
+exec = sugarOOo4Kids

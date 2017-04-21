@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:install="http://openoffice.org/2004/installation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="WebWizard" oor:package="org.openoffice.Office">
+  <node oor:name="WebWizard">
+    <node oor:name="Exporters">
+      <node oor:name="copy-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">Formato de archivo original</value>
+        </prop>
+      </node>
+      <node oor:name="html-writer-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">HTML</value>
+        </prop>
+      </node>
+      <node oor:name="html-calc-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">HTML</value>
+        </prop>
+      </node>
+      <node oor:name="html-impress-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">HTML</value>
+        </prop>
+      </node>
+      <node oor:name="html-draw-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">HTML</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-writer-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">PDF: Optimizado para la impresión</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-calc-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">PDF: Optimizado para la impresión</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-impress-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">PDF: Optimizado para la impresión</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-draw-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">PDF: Optimizado para la impresión</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-hq-writer-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">PDF: Optimizado para la imprenta</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-calc-hq-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">PDF: Optimizado para la imprenta</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-impress-hq-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">PDF: Optimizado para la imprenta</value>
+        </prop>
+      </node>
+      <node oor:name="pdf-draw-hq-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">PDF: Optimizado para la imprenta</value>
+        </prop>
+      </node>
+      <node oor:name="flash-impress-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">Destello</value>
+        </prop>
+      </node>
+      <node oor:name="flash-draw-exporter">
+        <prop oor:name="Name">
+          <value xml:lang="es">Destello</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Layouts">
+      <node oor:name="table_3">
+        <prop oor:name="Name">
+          <value xml:lang="es">Tabla con 3 columnas</value>
+        </prop>
+      </node>
+      <node oor:name="table_2">
+        <prop oor:name="Name">
+          <value xml:lang="es">Tabla con 2 columnas</value>
+        </prop>
+      </node>
+      <node oor:name="simple">
+        <prop oor:name="Name">
+          <value xml:lang="es">Sencilla</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal">
+        <prop oor:name="Name">
+          <value xml:lang="es">Diagonal</value>
+        </prop>
+      </node>
+      <node oor:name="zigzag">
+        <prop oor:name="Name">
+          <value xml:lang="es">Zigzag</value>
+        </prop>
+      </node>
+      <node oor:name="frame_left">
+        <prop oor:name="Name">
+          <value xml:lang="es">Conjunto de marcos HTML, izquierda</value>
+        </prop>
+      </node>
+      <node oor:name="frame_right">
+        <prop oor:name="Name">
+          <value xml:lang="es">Conjunto de marcos HTML, derecha</value>
+        </prop>
+      </node>
+      <node oor:name="frame_top">
+        <prop oor:name="Name">
+          <value xml:lang="es">Conjunto de marcos HTML, arriba</value>
+        </prop>
+      </node>
+      <node oor:name="frame_bottom">
+        <prop oor:name="Name">
+          <value xml:lang="es">Conjunto de marcos HTML, abajo</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Styles">
+      <node oor:name="style1">
+        <prop oor:name="Name">
+          <value xml:lang="es">Beis</value>
+        </prop>
+      </node>
+      <node oor:name="style2">
+        <prop oor:name="Name">
+          <value xml:lang="es">Brillo</value>
+        </prop>
+      </node>
+      <node oor:name="style3">
+        <prop oor:name="Name">
+          <value xml:lang="es">Azul brillante</value>
+        </prop>
+      </node>
+      <node oor:name="style4">
+        <prop oor:name="Name">
+          <value xml:lang="es">Gris</value>
+        </prop>
+      </node>
+      <node oor:name="style5">
+        <prop oor:name="Name">
+          <value xml:lang="es">Azul</value>
+        </prop>
+      </node>
+      <node oor:name="style6">
+        <prop oor:name="Name">
+          <value xml:lang="es">Contraste</value>
+        </prop>
+      </node>
+      <node oor:name="style7">
+        <prop oor:name="Name">
+          <value xml:lang="es">Azul y negro</value>
+        </prop>
+      </node>
+      <node oor:name="style8">
+        <prop oor:name="Name">
+          <value xml:lang="es">Granate</value>
+        </prop>
+      </node>
+      <node oor:name="style9">
+        <prop oor:name="Name">
+          <value xml:lang="es">Gris claro</value>
+        </prop>
+      </node>
+      <node oor:name="style10">
+        <prop oor:name="Name">
+          <value xml:lang="es">Verde oscuro</value>
+        </prop>
+      </node>
+      <node oor:name="style11">
+        <prop oor:name="Name">
+          <value xml:lang="es">Naranja y azul</value>
+        </prop>
+      </node>
+      <node oor:name="style12">
+        <prop oor:name="Name">
+          <value xml:lang="es">Azul marino</value>
+        </prop>
+      </node>
+      <node oor:name="style13">
+        <prop oor:name="Name">
+          <value xml:lang="es">Naranja</value>
+        </prop>
+      </node>
+      <node oor:name="style14">
+        <prop oor:name="Name">
+          <value xml:lang="es">Azul claro</value>
+        </prop>
+      </node>
+      <node oor:name="style15">
+        <prop oor:name="Name">
+          <value xml:lang="es">Azul y gris</value>
+        </prop>
+      </node>
+      <node oor:name="style16">
+        <prop oor:name="Name">
+          <value xml:lang="es">Agua</value>
+        </prop>
+      </node>
+      <node oor:name="style17">
+        <prop oor:name="Name">
+          <value xml:lang="es">Rojo</value>
+        </prop>
+      </node>
+      <node oor:name="style18">
+        <prop oor:name="Name">
+          <value xml:lang="es">Colores</value>
+        </prop>
+      </node>
+      <node oor:name="style19">
+        <prop oor:name="Name">
+          <value xml:lang="es">Verde y rojo</value>
+        </prop>
+      </node>
+      <node oor:name="style20">
+        <prop oor:name="Name">
+          <value xml:lang="es">Violeta</value>
+        </prop>
+      </node>
+      <node oor:name="style21">
+        <prop oor:name="Name">
+          <value xml:lang="es">Verde</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="IconSets">
+      <node oor:name="iconset0">
+        <prop oor:name="Name">
+          <value xml:lang="es">Redondo, 3D, azul y gris</value>
+        </prop>
+      </node>
+      <node oor:name="iconset1">
+        <prop oor:name="Name">
+          <value xml:lang="es">Redondo, 3D, azul y verde</value>
+        </prop>
+      </node>
+      <node oor:name="iconset2">
+        <prop oor:name="Name">
+          <value xml:lang="es">Cúbico, 3D, naranja y azul</value>
+        </prop>
+      </node>
+      <node oor:name="iconset3">
+        <prop oor:name="Name">
+          <value xml:lang="es">Redondo, plano, negro y gris</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Filters">
+      <node oor:name="OO_documents">
+        <prop oor:name="Name">
+          <value xml:lang="es">Documentos de %PRODNAME</value>
+        </prop>
+      </node>
+      <node oor:name="ms_documents">
+        <prop oor:name="Name">
+          <value xml:lang="es">Documentos de Microsoft Office</value>
+        </prop>
+      </node>
+      <node oor:name="graphic_files">
+        <prop oor:name="Name">
+          <value xml:lang="es">Archivos gráficos</value>
+        </prop>
+      </node>
+      <node oor:name="all_files">
+        <prop oor:name="Name">
+          <value xml:lang="es">Todos los archivos</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

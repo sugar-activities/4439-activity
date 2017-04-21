@@ -1,0 +1,44 @@
+#
+# Configure file for UI colors in OOOo4Kids on Linux
+# Created by Eric Bachard 2009 09 25 (based on Mox Soini work )
+#
+# The settings under label [General] are used. Modify it according to
+# the other labels, if you want to change it.
+#
+
+# only the [General]  part is used
+# a commented line starts with # character
+
+[General]
+background=244,244,244
+foreground=0,0,0
+#selectBackground=52,112,204
+selectBackground=52,112,204
+selectForeground=255,255,255
+#font=Andale Mono,Andale Sans UI
+#cursorFlashTime=0
+
+# based on Mac OS X examples
+# invent your theme !
+
+[XO like]
+background=100,100,100
+foreground=255,255,255
+#selectBackground=52,112,204
+selectBackground=230,255,0
+selectForeground=0,0,0
+#font=Andale Mono,Andale Sans UI
+#cursorFlashTime=0
+
+[Aqua]
+background=244,244,244
+foreground=0,0,0
+selectBackground=52,112,204
+selectForeground=255,255,255
+
+[Graphite]
+background=244,244,244
+foreground=0,0,0
+selectBackground=94,106,121
+selectForeground=255,255,255
+

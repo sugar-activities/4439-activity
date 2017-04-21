@@ -1,0 +1,10 @@
+[Bootstrap]
+BaseInstallation=${OOO_BASE_DIR}
+InstallMode=<installmode>
+ProductKey=OOo4Kids 1.3.2
+UserInstallation=$SYSUSERCONFIG/.ooo4kids/1.0
+OOo4KidsIntegrationUserFile=$UserInstallation/user/ooo4kidsrc.txt
+OOo4KidsIntegrationDefaultFile=${OOO_BASE_DIR}/presets/ooo4kidsrc.txt
+[ErrorReport]
+ErrorReportPort=80
+ErrorReportServer=

@@ -1,0 +1,4342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:install="http://openoffice.org/2004/installation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="TableWizard" oor:package="org.openoffice.Office">
+  <node oor:name="TableWizard">
+    <node oor:name="business">
+      <prop oor:name="Name">
+        <value xml:lang="es">Negocios</value>
+      </prop>
+      <node oor:name="Tables">
+        <node oor:name="categories">
+          <prop oor:name="Name">
+            <value xml:lang="es">Categorías</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="categoryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCategoría</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCategor</value>
+              </prop>
+            </node>
+            <node oor:name="categoryname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreCategoría</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombrCateg</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="products">
+          <prop oor:name="Name">
+            <value xml:lang="es">Productos</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="productID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDProducto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDProducto</value>
+              </prop>
+            </node>
+            <node oor:name="productname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreProducto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombreProd</value>
+              </prop>
+            </node>
+            <node oor:name="productdescription">
+              <prop oor:name="Name">
+                <value xml:lang="es">DescripciónProducto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DescrProd</value>
+              </prop>
+            </node>
+            <node oor:name="categoryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCategoría</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCategor</value>
+              </prop>
+            </node>
+            <node oor:name="supplierID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDProveedor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDProveed</value>
+              </prop>
+            </node>
+            <node oor:name="serialnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroSerie</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroSerie</value>
+              </prop>
+            </node>
+            <node oor:name="unitsinstock">
+              <prop oor:name="Name">
+                <value xml:lang="es">UnidadesEnExistencia</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">UnidsExistenc</value>
+              </prop>
+            </node>
+            <node oor:name="unitsonorder">
+              <prop oor:name="Name">
+                <value xml:lang="es">UnidadesenPedido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">UnidsPedid</value>
+              </prop>
+            </node>
+            <node oor:name="unitprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioUnidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecioUnid</value>
+              </prop>
+            </node>
+            <node oor:name="reorderlevel">
+              <prop oor:name="Name">
+                <value xml:lang="es">NivelNuevoPedido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NivNuevPed</value>
+              </prop>
+            </node>
+            <node oor:name="discontinued">
+              <prop oor:name="Name">
+                <value xml:lang="es">Suspendido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Suspend</value>
+              </prop>
+            </node>
+            <node oor:name="leadtime">
+              <prop oor:name="Name">
+                <value xml:lang="es">TiempoDeEspera</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TiempoEsp</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="suppliers">
+          <prop oor:name="Name">
+            <value xml:lang="es">Proveedores</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="supplierID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDProveedor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDProveed</value>
+              </prop>
+            </node>
+            <node oor:name="suppliername">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreProveedor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombProv</value>
+              </prop>
+            </node>
+            <node oor:name="contactname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreDelContacto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombCntcto</value>
+              </prop>
+            </node>
+            <node oor:name="contacttitle">
+              <prop oor:name="Name">
+                <value xml:lang="es">CargoContacto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CargCntcto</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódigoPostal</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódPostal</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoOProvincia</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadoProv</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="es">PaísORegión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PaísReg</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroTeléfono</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroTel</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroFax</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroFax</value>
+              </prop>
+            </node>
+            <node oor:name="paymentterms">
+              <prop oor:name="Name">
+                <value xml:lang="es">TérminosPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TérmPago</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="es">DirecciónCorreoElectrónico</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DirecCorreoE</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="mailinglist">
+          <prop oor:name="Name">
+            <value xml:lang="es">ListaDeCorreo</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="mailinglistID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDListaCorreo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCorreo</value>
+              </prop>
+            </node>
+            <node oor:name="prefix">
+              <prop oor:name="Name">
+                <value xml:lang="es">Prefijo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Prefijo</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+            </node>
+            <node oor:name="middlename">
+              <prop oor:name="Name">
+                <value xml:lang="es">SegundoNombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">2doNombre</value>
+              </prop>
+            </node>
+            <node oor:name="lastlame">
+              <prop oor:name="Name">
+                <value xml:lang="es">Apellidos</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Apellidos</value>
+              </prop>
+            </node>
+            <node oor:name="suffix">
+              <prop oor:name="Name">
+                <value xml:lang="es">Sufijo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Sufijo</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+            </node>
+            <node oor:name="organizationname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreOrganización</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombOrg</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódigoPostal</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódPostal</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoOProvincia</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadoProv</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="es">PaísORegión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PaísReg</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroTeléfono</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroTel</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroFax</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroFax</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroMóvil</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroMóvil</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="es">DirecciónCorreoElectrónico</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DirecCorreoE</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaNacimiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaNac</value>
+              </prop>
+            </node>
+            <node oor:name="nationality">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nacionalidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nacionalid</value>
+              </prop>
+            </node>
+            <node oor:name="dateupdated">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaActualización</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechActual</value>
+              </prop>
+            </node>
+            <node oor:name="datejoined">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaAsociación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaAsoc</value>
+              </prop>
+            </node>
+            <node oor:name="membershipstatus">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoAsociación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadAsoc</value>
+              </prop>
+            </node>
+            <node oor:name="pledgeamount">
+              <prop oor:name="Name">
+                <value xml:lang="es">ImportePromesa</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ImportProm</value>
+              </prop>
+            </node>
+            <node oor:name="pledgepaiddate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaPagoPromesa</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FecPagPromes</value>
+              </prop>
+            </node>
+            <node oor:name="duesamount">
+              <prop oor:name="Name">
+                <value xml:lang="es">ImporteCuotas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ImprtCuotas</value>
+              </prop>
+            </node>
+            <node oor:name="duespaiddate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaPagoCuotas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FecPagCuotas</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="es">Foto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Foto</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="contacts">
+          <prop oor:name="Name">
+            <value xml:lang="es">Contactos</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="contactID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDContacto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDContacto</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódigoPostal</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódPost</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoOProvincia</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadoProv</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="es">PaísORegión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PaísRegión</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroTeléfono</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroTel</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroFax</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroFax</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroMóvil</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroMóvil</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="es">DirecciónCorreoElectrónico</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DirecCorreoE</value>
+              </prop>
+            </node>
+            <node oor:name="salutation">
+              <prop oor:name="Name">
+                <value xml:lang="es">Saludo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Saludo</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaNacimiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaNac</value>
+              </prop>
+            </node>
+            <node oor:name="contacttypeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDTipoContacto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDTipContc</value>
+              </prop>
+            </node>
+            <node oor:name="maritalstatus">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoCivil</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadoCiv</value>
+              </prop>
+            </node>
+            <node oor:name="spousename">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreCónyuge</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombCónyug</value>
+              </prop>
+            </node>
+            <node oor:name="spousesinterests">
+              <prop oor:name="Name">
+                <value xml:lang="es">InteresesCónyuges</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">InterCónyg</value>
+              </prop>
+            </node>
+            <node oor:name="contactsinterests">
+              <prop oor:name="Name">
+                <value xml:lang="es">InteresesContactos</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">InterContc</value>
+              </prop>
+            </node>
+            <node oor:name="childrennames">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombresNiños</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombNiños</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="es">Foto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Foto</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="customers">
+          <prop oor:name="Name">
+            <value xml:lang="es">Clientes</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+            </node>
+            <node oor:name="companyname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreCompañía</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombCía</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+            </node>
+            <node oor:name="department">
+              <prop oor:name="Name">
+                <value xml:lang="es">Departamento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Depto</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Direc</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódigoPostal</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódPostal</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoOProvincia</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadoProv</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="es">PaísORegión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PaísRegión</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroTeléfono</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroTel</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroFax</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NroFax</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroMóvil</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmMóvil</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="es">DirCorreoElectrónico</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DirCorEléc</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="employees">
+          <prop oor:name="Name">
+            <value xml:lang="es">Empleados</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+            </node>
+            <node oor:name="middlename">
+              <prop oor:name="Name">
+                <value xml:lang="es">SegundoNombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">2oNombre</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+            </node>
+            <node oor:name="department">
+              <prop oor:name="Name">
+                <value xml:lang="es">Departamento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Departamen</value>
+              </prop>
+            </node>
+            <node oor:name="socialsecuritynumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmSeguridadSocial</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmSegSoc</value>
+              </prop>
+            </node>
+            <node oor:name="employeenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmEmplead</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="es">DirCorreoElectrónico</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DirCorEléc</value>
+              </prop>
+            </node>
+            <node oor:name="extension">
+              <prop oor:name="Name">
+                <value xml:lang="es">Extensión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Extensión</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódPostal</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódPostal</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoOProv</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadoProv</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="es">PaísORegión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PaísRegión</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmTeléfono</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmTeléfon</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroFax</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmeroFax</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroMóvil</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmMóvil</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaNacimiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaNacim</value>
+              </prop>
+            </node>
+            <node oor:name="datehired">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaContratación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaContratación</value>
+              </prop>
+            </node>
+            <node oor:name="departmentID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IdDepartamento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IdDepartam</value>
+              </prop>
+            </node>
+            <node oor:name="salary">
+              <prop oor:name="Name">
+                <value xml:lang="es">Salario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Salario</value>
+              </prop>
+            </node>
+            <node oor:name="billingrate">
+              <prop oor:name="Name">
+                <value xml:lang="es">TasaFacturación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TasaFactur</value>
+              </prop>
+            </node>
+            <node oor:name="deductions">
+              <prop oor:name="Name">
+                <value xml:lang="es">Deducciones</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Deduccions</value>
+              </prop>
+            </node>
+            <node oor:name="supervisorID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDSupervisor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDSupervis</value>
+              </prop>
+            </node>
+            <node oor:name="spousename">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreCónyuge</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombCónyug</value>
+              </prop>
+            </node>
+            <node oor:name="officelocation">
+              <prop oor:name="Name">
+                <value xml:lang="es">LugarOficina</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LugOficin</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="es">Foto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Foto</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="orders">
+          <prop oor:name="Name">
+            <value xml:lang="es">Pedidos</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="orderdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaPedido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechPedido</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseordernumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmPedidoCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmPedComp</value>
+              </prop>
+            </node>
+            <node oor:name="requiredbydate">
+              <prop oor:name="Name">
+                <value xml:lang="es">RequeridoEnFecha</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">RequFecha</value>
+              </prop>
+            </node>
+            <node oor:name="promisedbydate">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrometidoEnFecha</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PromeFecha</value>
+              </prop>
+            </node>
+            <node oor:name="shipname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Destinatario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Destinatar</value>
+              </prop>
+            </node>
+            <node oor:name="shipaddress">
+              <prop oor:name="Name">
+                <value xml:lang="es">DirecciónDestinatario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DirecDesti</value>
+              </prop>
+            </node>
+            <node oor:name="shipcity">
+              <prop oor:name="Name">
+                <value xml:lang="es">CiudadDestinatario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CiudadDest</value>
+              </prop>
+            </node>
+            <node oor:name="shipstateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="es">EdoOProvDestinatario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstProvDes</value>
+              </prop>
+            </node>
+            <node oor:name="shippostalcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódPostalDestinatario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódPDestin</value>
+              </prop>
+            </node>
+            <node oor:name="shipcountryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="es">PaísORegiónDestinatario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PaísRegDes</value>
+              </prop>
+            </node>
+            <node oor:name="shipphonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroTeléfDestinatario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmTelDest</value>
+              </prop>
+            </node>
+            <node oor:name="shipdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaEnvío</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaEnvío</value>
+              </prop>
+            </node>
+            <node oor:name="shippingmethodID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDModoEnvío</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDModEnvío</value>
+              </prop>
+            </node>
+            <node oor:name="freightcharge">
+              <prop oor:name="Name">
+                <value xml:lang="es">CargoPorCoste</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CrgoPrCost</value>
+              </prop>
+            </node>
+            <node oor:name="salestaxrate">
+              <prop oor:name="Name">
+                <value xml:lang="es">TasaImpuestoVentas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TasImpVtas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="orderdetails">
+          <prop oor:name="Name">
+            <value xml:lang="es">DetallesPedido</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="orderdetailID">
+              <prop oor:name="Name">
+                <value xml:lang="es">DetalPedid</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDDetallesPedido</value>
+              </prop>
+            </node>
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDDetPedid</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+            </node>
+            <node oor:name="productID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDProducto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDProducto</value>
+              </prop>
+            </node>
+            <node oor:name="datesold">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaDeVenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaVenta</value>
+              </prop>
+            </node>
+            <node oor:name="quantity">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cantidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cantidad</value>
+              </prop>
+            </node>
+            <node oor:name="unitprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioUnidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecioUnid</value>
+              </prop>
+            </node>
+            <node oor:name="discount">
+              <prop oor:name="Name">
+                <value xml:lang="es">Descuento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Descuento</value>
+              </prop>
+            </node>
+            <node oor:name="saleprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioVenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecVenta</value>
+              </prop>
+            </node>
+            <node oor:name="salestax">
+              <prop oor:name="Name">
+                <value xml:lang="es">ImpuestoVentas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ImpstoVtas</value>
+              </prop>
+            </node>
+            <node oor:name="linetotal">
+              <prop oor:name="Name">
+                <value xml:lang="es">LíneaTotal</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LíneaTotal</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="payments">
+          <prop oor:name="Name">
+            <value xml:lang="es">Pagos</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="paymentID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPago</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+            </node>
+            <node oor:name="workorderID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPedidoDeTrabajo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPedTrab</value>
+              </prop>
+            </node>
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+            </node>
+            <node oor:name="reservationID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDReserva</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDReserva</value>
+              </prop>
+            </node>
+            <node oor:name="memberID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDSocio</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDSocio</value>
+              </prop>
+            </node>
+            <node oor:name="registrationID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDRegistro</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDRegistro</value>
+              </prop>
+            </node>
+            <node oor:name="projectID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDProyecto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDProyecto</value>
+              </prop>
+            </node>
+            <node oor:name="paymentamount">
+              <prop oor:name="Name">
+                <value xml:lang="es">ImportePago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ImportPago</value>
+              </prop>
+            </node>
+            <node oor:name="paymentdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaPago</value>
+              </prop>
+            </node>
+            <node oor:name="paymentmethod">
+              <prop oor:name="Name">
+                <value xml:lang="es">FormaPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FormaPago</value>
+              </prop>
+            </node>
+            <node oor:name="checknumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmComprobación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmComprob</value>
+              </prop>
+            </node>
+            <node oor:name="creditcardtype">
+              <prop oor:name="Name">
+                <value xml:lang="es">TipoTarjCrédito</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TTarjCrédt</value>
+              </prop>
+            </node>
+            <node oor:name="creditcardnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmTarjCrédito</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NTarjCrédt</value>
+              </prop>
+            </node>
+            <node oor:name="cardholder">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreTarjCrédito</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NmbTrjCréd</value>
+              </prop>
+            </node>
+            <node oor:name="creditcardExpdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaExpTarjCrédito</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaExpTarjCrédito</value>
+              </prop>
+            </node>
+            <node oor:name="creditcardauthorizationnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmAutorizTarjCrédito</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NAutTrjCré</value>
+              </prop>
+            </node>
+            <node oor:name="paymentterms">
+              <prop oor:name="Name">
+                <value xml:lang="es">TérminosPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TermPago</value>
+              </prop>
+            </node>
+            <node oor:name="paymentmethodID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDFormaPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDFrmaPago</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="invoices">
+          <prop oor:name="Name">
+            <value xml:lang="es">Facturas</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="invoiceID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDFactura</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDFactura</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="deliveryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEntrega</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEntrega</value>
+              </prop>
+            </node>
+            <node oor:name="status">
+              <prop oor:name="Name">
+                <value xml:lang="es">Estado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Estado</value>
+              </prop>
+            </node>
+            <node oor:name="invoicedate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaFactura</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaFra</value>
+              </prop>
+            </node>
+            <node oor:name="salesperson">
+              <prop oor:name="Name">
+                <value xml:lang="es">Vendedor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Vendedor</value>
+              </prop>
+            </node>
+            <node oor:name="shipdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaEnvío</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaEnvío</value>
+              </prop>
+            </node>
+            <node oor:name="shippedto">
+              <prop oor:name="Name">
+                <value xml:lang="es">EnviadoA</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EnviadoA</value>
+              </prop>
+            </node>
+            <node oor:name="shippedvia">
+              <prop oor:name="Name">
+                <value xml:lang="es">EnviadoVía</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EnviadoVía</value>
+              </prop>
+            </node>
+            <node oor:name="shippingcost">
+              <prop oor:name="Name">
+                <value xml:lang="es">CosteEnvío</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CosteEnvío</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="invoicedetails">
+          <prop oor:name="Name">
+            <value xml:lang="es">DetallsFra</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="invoicedetailID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDDetalleFactura</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDDetsFra</value>
+              </prop>
+            </node>
+            <node oor:name="invoiceID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDFactura</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDFactura</value>
+              </prop>
+            </node>
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+            </node>
+            <node oor:name="productID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDProducto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDProducto</value>
+              </prop>
+            </node>
+            <node oor:name="quantity">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cantidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cantidad</value>
+              </prop>
+            </node>
+            <node oor:name="unitprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioUnid</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecioUnid</value>
+              </prop>
+            </node>
+            <node oor:name="discount">
+              <prop oor:name="Name">
+                <value xml:lang="es">Descuento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Descuento</value>
+              </prop>
+            </node>
+            <node oor:name="paymentterms">
+              <prop oor:name="Name">
+                <value xml:lang="es">TérminosPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TermPago</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="projects">
+          <prop oor:name="Name">
+            <value xml:lang="es">Proyectos</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="projectID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDProyecto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDProyecto</value>
+              </prop>
+            </node>
+            <node oor:name="projectname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreProy</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombreProy</value>
+              </prop>
+            </node>
+            <node oor:name="projectdescription">
+              <prop oor:name="Name">
+                <value xml:lang="es">DescripciónProy</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DescrProy</value>
+              </prop>
+            </node>
+            <node oor:name="clientID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDDeCliente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseordernumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmPedidoCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmPedComp</value>
+              </prop>
+            </node>
+            <node oor:name="totalbillingestimate">
+              <prop oor:name="Name">
+                <value xml:lang="es">CálculoFactTotal</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CálcTotFra</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="begindate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaInicio</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaInicio</value>
+              </prop>
+            </node>
+            <node oor:name="enddate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaFin</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaFin</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="events">
+          <prop oor:name="Name">
+            <value xml:lang="es">Eventos</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="eventID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDActividad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDActivdad</value>
+              </prop>
+            </node>
+            <node oor:name="eventname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreActividad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombActivd</value>
+              </prop>
+            </node>
+            <node oor:name="eventdescription">
+              <prop oor:name="Name">
+                <value xml:lang="es">DescripciónActividad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DescActivd</value>
+              </prop>
+            </node>
+            <node oor:name="eventtypeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDTipoActividad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDTipActiv</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="status">
+              <prop oor:name="Name">
+                <value xml:lang="es">Estado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Estado</value>
+              </prop>
+            </node>
+            <node oor:name="location">
+              <prop oor:name="Name">
+                <value xml:lang="es">Ubicación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Ubicación</value>
+              </prop>
+            </node>
+            <node oor:name="begindate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaInicio</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaInicio</value>
+              </prop>
+            </node>
+            <node oor:name="begintime">
+              <prop oor:name="Name">
+                <value xml:lang="es">HoraInicio</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">HoraInicio</value>
+              </prop>
+            </node>
+            <node oor:name="enddate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaFin</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaFin</value>
+              </prop>
+            </node>
+            <node oor:name="endtime">
+              <prop oor:name="Name">
+                <value xml:lang="es">HoraFin</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">HoraFin</value>
+              </prop>
+            </node>
+            <node oor:name="requiredstaffing">
+              <prop oor:name="Name">
+                <value xml:lang="es">PersonalRequerido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PersnlRequ</value>
+              </prop>
+            </node>
+            <node oor:name="confirmation">
+              <prop oor:name="Name">
+                <value xml:lang="es">Confirmación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Confirmac</value>
+              </prop>
+            </node>
+            <node oor:name="availablespaces">
+              <prop oor:name="Name">
+                <value xml:lang="es">EspaciosDisponibles</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EspacDispn</value>
+              </prop>
+            </node>
+            <node oor:name="costperperson">
+              <prop oor:name="Name">
+                <value xml:lang="es">CostePorPersona</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CostPrPers</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="reservations">
+          <prop oor:name="Name">
+            <value xml:lang="es">Reservas</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="reservationID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDReserva</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDReserva</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+            </node>
+            <node oor:name="eventID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDActividad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDActivdad</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="quantityreserved">
+              <prop oor:name="Name">
+                <value xml:lang="es">CantidadReservada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CantReserv</value>
+              </prop>
+            </node>
+            <node oor:name="reservationdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaReserva</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaReserv</value>
+              </prop>
+            </node>
+            <node oor:name="reservationtime">
+              <prop oor:name="Name">
+                <value xml:lang="es">HoraReserva</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">HoraReserv</value>
+              </prop>
+            </node>
+            <node oor:name="depositdue">
+              <prop oor:name="Name">
+                <value xml:lang="es">DepósitoDebido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DepósDebid</value>
+              </prop>
+            </node>
+            <node oor:name="totaldue">
+              <prop oor:name="Name">
+                <value xml:lang="es">TotalDebido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TotalDebid</value>
+              </prop>
+            </node>
+            <node oor:name="amountpaid">
+              <prop oor:name="Name">
+                <value xml:lang="es">ImportePagado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ImportPagd</value>
+              </prop>
+            </node>
+            <node oor:name="confirmation">
+              <prop oor:name="Name">
+                <value xml:lang="es">Confirmación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Confirmac</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="timebilled">
+          <prop oor:name="Name">
+            <value xml:lang="es">FacturadoTiempo</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="timebilledID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDFacturadoTiempo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDFacttmpo</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+            </node>
+            <node oor:name="projectID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDProyecto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDProyecto</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="billingdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaFacturación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaFactur</value>
+              </prop>
+            </node>
+            <node oor:name="rateperhour">
+              <prop oor:name="Name">
+                <value xml:lang="es">TarifaPorHora</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TarifaHora</value>
+              </prop>
+            </node>
+            <node oor:name="billablehours">
+              <prop oor:name="Name">
+                <value xml:lang="es">HorasFacturables</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">HrsFactur</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="expenses">
+          <prop oor:name="Name">
+            <value xml:lang="es">Gastos</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="expenseID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDGasto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDGasto</value>
+              </prop>
+            </node>
+            <node oor:name="expensetype">
+              <prop oor:name="Name">
+                <value xml:lang="es">TipoGasto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TipoGasto</value>
+              </prop>
+            </node>
+            <node oor:name="purpose">
+              <prop oor:name="Name">
+                <value xml:lang="es">Finalidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Finalidad</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaDeCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCompra</value>
+              </prop>
+            </node>
+            <node oor:name="datesubmitted">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaPresentada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaPrsntd</value>
+              </prop>
+            </node>
+            <node oor:name="amountspent">
+              <prop oor:name="Name">
+                <value xml:lang="es">ImporteGastado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ImprtGastd</value>
+              </prop>
+            </node>
+            <node oor:name="advanceamount">
+              <prop oor:name="Name">
+                <value xml:lang="es">ImporteAdelantado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ImprtAdlnt</value>
+              </prop>
+            </node>
+            <node oor:name="paymentmethod">
+              <prop oor:name="Name">
+                <value xml:lang="es">FormaPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FormaPago</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="deliveries">
+          <prop oor:name="Name">
+            <value xml:lang="es">Entregas</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="deliveryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEntrega</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEntrega</value>
+              </prop>
+            </node>
+            <node oor:name="customerID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCliente</value>
+              </prop>
+            </node>
+            <node oor:name="orderID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPedido</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="shippedfrom">
+              <prop oor:name="Name">
+                <value xml:lang="es">EnviadoDesde</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EnvdoDesde</value>
+              </prop>
+            </node>
+            <node oor:name="shippedvia">
+              <prop oor:name="Name">
+                <value xml:lang="es">EnviadoVía</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EnviadoVía</value>
+              </prop>
+            </node>
+            <node oor:name="trackingcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódigoRuta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódigoRuta</value>
+              </prop>
+            </node>
+            <node oor:name="shipdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaEnvío</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaEnvío</value>
+              </prop>
+            </node>
+            <node oor:name="shipperphonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmTeléfRemitente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmTelRemt</value>
+              </prop>
+            </node>
+            <node oor:name="destinationaddress">
+              <prop oor:name="Name">
+                <value xml:lang="es">DirecciónDestino</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DirDestino</value>
+              </prop>
+            </node>
+            <node oor:name="destinationcity">
+              <prop oor:name="Name">
+                <value xml:lang="es">CiudadDestino</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CiudDestin</value>
+              </prop>
+            </node>
+            <node oor:name="destinationstateprovince">
+              <prop oor:name="Name">
+                <value xml:lang="es">EdoOProvDestino</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EdoProvDst</value>
+              </prop>
+            </node>
+            <node oor:name="destinationpostalcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódPostalDestino</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CPDestino</value>
+              </prop>
+            </node>
+            <node oor:name="destinationcountryregion">
+              <prop oor:name="Name">
+                <value xml:lang="es">PaísORegiónDestino</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PaísRegDes</value>
+              </prop>
+            </node>
+            <node oor:name="arrivaldate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaLlegada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Fchallegad</value>
+              </prop>
+            </node>
+            <node oor:name="arrivaltime">
+              <prop oor:name="Name">
+                <value xml:lang="es">HoraLlegada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">HoraLlegad</value>
+              </prop>
+            </node>
+            <node oor:name="currentlocation">
+              <prop oor:name="Name">
+                <value xml:lang="es">LugarActual</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LugrActual</value>
+              </prop>
+            </node>
+            <node oor:name="packagedimensions">
+              <prop oor:name="Name">
+                <value xml:lang="es">DimensionesEnvase</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DimnsEnvas</value>
+              </prop>
+            </node>
+            <node oor:name="packageweight">
+              <prop oor:name="Name">
+                <value xml:lang="es">PesoEnvase</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PesoEnvase</value>
+              </prop>
+            </node>
+            <node oor:name="pickuplocation">
+              <prop oor:name="Name">
+                <value xml:lang="es">LugarDeRecogida</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LugarRecog</value>
+              </prop>
+            </node>
+            <node oor:name="pickupdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaRecogida</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaRecog</value>
+              </prop>
+            </node>
+            <node oor:name="pickuptime">
+              <prop oor:name="Name">
+                <value xml:lang="es">HoraRecogida</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">HoraRecog</value>
+              </prop>
+            </node>
+            <node oor:name="receivedby">
+              <prop oor:name="Name">
+                <value xml:lang="es">RecibidoPor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">RecibidPor</value>
+              </prop>
+            </node>
+            <node oor:name="freightcharge">
+              <prop oor:name="Name">
+                <value xml:lang="es">CargoPorCoste</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CrgoPrCost</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="assets">
+          <prop oor:name="Name">
+            <value xml:lang="es">Activos</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="assetID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDActivo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDActivo</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="es">Descripción</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Descripc</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="assetcategoryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCategoríaActivo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCatActiv</value>
+              </prop>
+            </node>
+            <node oor:name="statusID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IdSituación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IdSituación</value>
+              </prop>
+            </node>
+            <node oor:name="departmentID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDDepartamento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDDepto</value>
+              </prop>
+            </node>
+            <node oor:name="vendorID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDVendedor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDVendedor</value>
+              </prop>
+            </node>
+            <node oor:name="make">
+              <prop oor:name="Name">
+                <value xml:lang="es">Marca</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Marca</value>
+              </prop>
+            </node>
+            <node oor:name="model">
+              <prop oor:name="Name">
+                <value xml:lang="es">Modelo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Modelo</value>
+              </prop>
+            </node>
+            <node oor:name="modelnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmModelo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmModelo</value>
+              </prop>
+            </node>
+            <node oor:name="serialnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmSerie</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmSerie</value>
+              </prop>
+            </node>
+            <node oor:name="barcodenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódigoDeBarras</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódBarras</value>
+              </prop>
+            </node>
+            <node oor:name="dateacquired">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCompra</value>
+              </prop>
+            </node>
+            <node oor:name="datesold">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaVenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaVenta</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecCompra</value>
+              </prop>
+            </node>
+            <node oor:name="depreciationmethod">
+              <prop oor:name="Name">
+                <value xml:lang="es">MétodoDepreciación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">MétdDeprec</value>
+              </prop>
+            </node>
+            <node oor:name="depreciablelife">
+              <prop oor:name="Name">
+                <value xml:lang="es">VidaAmortizable</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">VidaAmort</value>
+              </prop>
+            </node>
+            <node oor:name="salvagevalue">
+              <prop oor:name="Name">
+                <value xml:lang="es">ValorRescate</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ValRescate</value>
+              </prop>
+            </node>
+            <node oor:name="currentvalue">
+              <prop oor:name="Name">
+                <value xml:lang="es">ValorActual</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ValrActual</value>
+              </prop>
+            </node>
+            <node oor:name="comments">
+              <prop oor:name="Name">
+                <value xml:lang="es">Comentarios</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Comntarios</value>
+              </prop>
+            </node>
+            <node oor:name="nextscheduledmaintenance">
+              <prop oor:name="Name">
+                <value xml:lang="es">SiguienteMantenimientoProgramado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">SigMantPrg</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="transactions">
+          <prop oor:name="Name">
+            <value xml:lang="es">Transacciones</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="transactionID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDTransacción</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDTransacc</value>
+              </prop>
+            </node>
+            <node oor:name="paymentID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPago</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPago</value>
+              </prop>
+            </node>
+            <node oor:name="transactionnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmTransacción</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmTransac</value>
+              </prop>
+            </node>
+            <node oor:name="date">
+              <prop oor:name="Name">
+                <value xml:lang="es">Fecha</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Fecha</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="es">Descripción</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Descripc</value>
+              </prop>
+            </node>
+            <node oor:name="amount">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cantidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cantidad</value>
+              </prop>
+            </node>
+            <node oor:name="accountID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCuenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCuenta</value>
+              </prop>
+            </node>
+            <node oor:name="referencenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmReferencia</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmRef</value>
+              </prop>
+            </node>
+            <node oor:name="numberofunits">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmDeUnidades</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmUnidads</value>
+              </prop>
+            </node>
+            <node oor:name="withdrawalamount">
+              <prop oor:name="Name">
+                <value xml:lang="es">ImporteReembolso</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ImprtReemb</value>
+              </prop>
+            </node>
+            <node oor:name="depositamount">
+              <prop oor:name="Name">
+                <value xml:lang="es">CantidadDepositada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CtdDeposit</value>
+              </prop>
+            </node>
+            <node oor:name="interestearned">
+              <prop oor:name="Name">
+                <value xml:lang="es">InterésGanado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IntersGana</value>
+              </prop>
+            </node>
+            <node oor:name="buyselldate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaCompraVenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchCpraVta</value>
+              </prop>
+            </node>
+            <node oor:name="buysellprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioCompraVenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrcCpraVta</value>
+              </prop>
+            </node>
+            <node oor:name="servicecharge">
+              <prop oor:name="Name">
+                <value xml:lang="es">CargaPorServ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CargPrServ</value>
+              </prop>
+            </node>
+            <node oor:name="taxable">
+              <prop oor:name="Name">
+                <value xml:lang="es">SujetoAImpuestos</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">SujeImpsts</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="tasks">
+          <prop oor:name="Name">
+            <value xml:lang="es">Tareas</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="taskID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDTarea</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDTarea</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="es">Descripción</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Descripc</value>
+              </prop>
+            </node>
+            <node oor:name="startdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaInicio</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaInicio</value>
+              </prop>
+            </node>
+            <node oor:name="enddate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaFin</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaFin</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="employeestasks">
+          <prop oor:name="Name">
+            <value xml:lang="es">TareasEmpleadas</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="employeetaskID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDTareaEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDTareEmpl</value>
+              </prop>
+            </node>
+            <node oor:name="employeeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDEmpleado</value>
+              </prop>
+            </node>
+            <node oor:name="taskID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDTarea</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDTarea</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node oor:name="private">
+      <prop oor:name="Name">
+        <value xml:lang="es">Privado</value>
+      </prop>
+      <node oor:name="Tables">
+        <node oor:name="categories">
+          <prop oor:name="Name">
+            <value xml:lang="es">Categorías</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="categoryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCategoría</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCategor</value>
+              </prop>
+            </node>
+            <node oor:name="categoryname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreCategoría</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombrCateg</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="addresses">
+          <prop oor:name="Name">
+            <value xml:lang="es">Direcciones</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="addressID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDDirección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDDirecc</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cargo</value>
+              </prop>
+            </node>
+            <node oor:name="address">
+              <prop oor:name="Name">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Dirección</value>
+              </prop>
+            </node>
+            <node oor:name="city">
+              <prop oor:name="Name">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Ciudad</value>
+              </prop>
+            </node>
+            <node oor:name="postalcode">
+              <prop oor:name="Name">
+                <value xml:lang="es">CódPostal</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CódPostal</value>
+              </prop>
+            </node>
+            <node oor:name="stateorprovince">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoOProv</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadoProv</value>
+              </prop>
+            </node>
+            <node oor:name="countryorregion">
+              <prop oor:name="Name">
+                <value xml:lang="es">PaísORegión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PaísRegión</value>
+              </prop>
+            </node>
+            <node oor:name="phonenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmTeléfono</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmTeléfon</value>
+              </prop>
+            </node>
+            <node oor:name="faxnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroFax</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmeroFax</value>
+              </prop>
+            </node>
+            <node oor:name="mobilenumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroMóvil</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmMóvil</value>
+              </prop>
+            </node>
+            <node oor:name="emailaddress">
+              <prop oor:name="Name">
+                <value xml:lang="es">DirCorreoElectrónico</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DirCorEléc</value>
+              </prop>
+            </node>
+            <node oor:name="salutation">
+              <prop oor:name="Name">
+                <value xml:lang="es">Saludo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Saludo</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaNacimiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaNacim</value>
+              </prop>
+            </node>
+            <node oor:name="sendcard">
+              <prop oor:name="Name">
+                <value xml:lang="es">EnviarTarjeta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EnvrTarjet</value>
+              </prop>
+            </node>
+            <node oor:name="maritalstatus">
+              <prop oor:name="Name">
+                <value xml:lang="es">EstadoCivil</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">EstadoCiv</value>
+              </prop>
+            </node>
+            <node oor:name="spousename">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombCónyuge</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombCónyug</value>
+              </prop>
+            </node>
+            <node oor:name="nickname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Sobrenombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Sobrenombre</value>
+              </prop>
+            </node>
+            <node oor:name="hobbies">
+              <prop oor:name="Name">
+                <value xml:lang="es">Aficiones</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Aficiones</value>
+              </prop>
+            </node>
+            <node oor:name="childrennames">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombresNiños</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombrNiños</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="es">Foto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Foto</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+            <node oor:name="dateupdated">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaActualización</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaActual</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="householdinventory">
+          <prop oor:name="Name">
+            <value xml:lang="es">InventarioDoméstico</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="inventoryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDInventario</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDInventar</value>
+              </prop>
+            </node>
+            <node oor:name="categoryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCategoría</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCategor</value>
+              </prop>
+            </node>
+            <node oor:name="roomID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDHabitación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDHabitac</value>
+              </prop>
+            </node>
+            <node oor:name="item">
+              <prop oor:name="Name">
+                <value xml:lang="es">Artículo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Artículo</value>
+              </prop>
+            </node>
+            <node oor:name="itemtype">
+              <prop oor:name="Name">
+                <value xml:lang="es">TipoArtículo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TipoArtíc</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="es">Descripción</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Descripc</value>
+              </prop>
+            </node>
+            <node oor:name="manufacturer">
+              <prop oor:name="Name">
+                <value xml:lang="es">Fabricante</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Fabricante</value>
+              </prop>
+            </node>
+            <node oor:name="model">
+              <prop oor:name="Name">
+                <value xml:lang="es">Modelo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Modelo</value>
+              </prop>
+            </node>
+            <node oor:name="modelnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmModelo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmModelo</value>
+              </prop>
+            </node>
+            <node oor:name="serialnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmSerie</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmSerie</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaDeCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCompra</value>
+              </prop>
+            </node>
+            <node oor:name="placepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="es">LugarCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LugrCompra</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecCompra</value>
+              </prop>
+            </node>
+            <node oor:name="appraisedvalue">
+              <prop oor:name="Name">
+                <value xml:lang="es">ValorTasado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ValorTasad</value>
+              </prop>
+            </node>
+            <node oor:name="insured">
+              <prop oor:name="Name">
+                <value xml:lang="es">Asegurado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Asegurado</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="recipes">
+          <prop oor:name="Name">
+            <value xml:lang="es">Recetas</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="recipeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDReceta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDReceta</value>
+              </prop>
+            </node>
+            <node oor:name="name">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="es">Descripción</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Descripc</value>
+              </prop>
+            </node>
+            <node oor:name="source">
+              <prop oor:name="Name">
+                <value xml:lang="es">Origen</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Origen</value>
+              </prop>
+            </node>
+            <node oor:name="whichmeal">
+              <prop oor:name="Name">
+                <value xml:lang="es">QuéComida</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">QuéComida</value>
+              </prop>
+            </node>
+            <node oor:name="vegetarian">
+              <prop oor:name="Name">
+                <value xml:lang="es">Vegetariano</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Vegetarian</value>
+              </prop>
+            </node>
+            <node oor:name="timetoprepare">
+              <prop oor:name="Name">
+                <value xml:lang="es">TiempoPreparación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TmpoPrepar</value>
+              </prop>
+            </node>
+            <node oor:name="numberofservings">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmDeServicios</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmServics</value>
+              </prop>
+            </node>
+            <node oor:name="caloriesperserving">
+              <prop oor:name="Name">
+                <value xml:lang="es">CaloríasPorServ</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CalPorServ</value>
+              </prop>
+            </node>
+            <node oor:name="nutritionalinformation">
+              <prop oor:name="Name">
+                <value xml:lang="es">InformaciónAlimenticia</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">InfoAlimen</value>
+              </prop>
+            </node>
+            <node oor:name="ingredients">
+              <prop oor:name="Name">
+                <value xml:lang="es">Ingredientes</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Ingredntes</value>
+              </prop>
+            </node>
+            <node oor:name="instructions">
+              <prop oor:name="Name">
+                <value xml:lang="es">Instrucciones</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Instruccs</value>
+              </prop>
+            </node>
+            <node oor:name="utensils">
+              <prop oor:name="Name">
+                <value xml:lang="es">Utensilios</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Utensilios</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="plants">
+          <prop oor:name="Name">
+            <value xml:lang="es">Plantas</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="plantID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPlanta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPlanta</value>
+              </prop>
+            </node>
+            <node oor:name="commonname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreComún</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NmbreComún</value>
+              </prop>
+            </node>
+            <node oor:name="genus">
+              <prop oor:name="Name">
+                <value xml:lang="es">Género</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Género</value>
+              </prop>
+            </node>
+            <node oor:name="species">
+              <prop oor:name="Name">
+                <value xml:lang="es">Especies</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Especies</value>
+              </prop>
+            </node>
+            <node oor:name="flowering">
+              <prop oor:name="Name">
+                <value xml:lang="es">Florecimiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Florecmnto</value>
+              </prop>
+            </node>
+            <node oor:name="lightpreference">
+              <prop oor:name="Name">
+                <value xml:lang="es">PromociónLigera</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PromocLige</value>
+              </prop>
+            </node>
+            <node oor:name="temperaturepreference">
+              <prop oor:name="Name">
+                <value xml:lang="es">OpcionesTemperatura</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">OpcsTemper</value>
+              </prop>
+            </node>
+            <node oor:name="fertilizefrequency">
+              <prop oor:name="Name">
+                <value xml:lang="es">FrecuenciaFertilizar</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FrecFertil</value>
+              </prop>
+            </node>
+            <node oor:name="wateringfrequency">
+              <prop oor:name="Name">
+                <value xml:lang="es">FrecuenciaRiego</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FrecRiego</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaDeCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCompra</value>
+              </prop>
+            </node>
+            <node oor:name="placepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="es">LugarCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LugrCompra</value>
+              </prop>
+            </node>
+            <node oor:name="dateplanted">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaPlantación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaPlantd</value>
+              </prop>
+            </node>
+            <node oor:name="daterepotted">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaEnvase</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaEnvase</value>
+              </prop>
+            </node>
+            <node oor:name="datepruned">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaPodado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaPodado</value>
+              </prop>
+            </node>
+            <node oor:name="datewatered">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaRiego</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaRiego</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="es">Foto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Foto</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="photographs">
+          <prop oor:name="Name">
+            <value xml:lang="es">Fotografías</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="photoID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDFoto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDFoto</value>
+              </prop>
+            </node>
+            <node oor:name="filmID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IdPelícula</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IdPelícula</value>
+              </prop>
+            </node>
+            <node oor:name="datetaken">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaTomada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaTomada</value>
+              </prop>
+            </node>
+            <node oor:name="timetaken">
+              <prop oor:name="Name">
+                <value xml:lang="es">HoraTomada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">HoraTomada</value>
+              </prop>
+            </node>
+            <node oor:name="placetaken">
+              <prop oor:name="Name">
+                <value xml:lang="es">LugarTomada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LgarTomada</value>
+              </prop>
+            </node>
+            <node oor:name="lensused">
+              <prop oor:name="Name">
+                <value xml:lang="es">LenteUtilizada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LenteUsada</value>
+              </prop>
+            </node>
+            <node oor:name="aperture">
+              <prop oor:name="Name">
+                <value xml:lang="es">Apertura</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Apertura</value>
+              </prop>
+            </node>
+            <node oor:name="shutterspeed">
+              <prop oor:name="Name">
+                <value xml:lang="es">VelocidadObturador</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">VeloObtur</value>
+              </prop>
+            </node>
+            <node oor:name="filterused">
+              <prop oor:name="Name">
+                <value xml:lang="es">FiltroUtilizado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FiltroUsad</value>
+              </prop>
+            </node>
+            <node oor:name="flash">
+              <prop oor:name="Name">
+                <value xml:lang="es">Flash</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Flash</value>
+              </prop>
+            </node>
+            <node oor:name="printsize">
+              <prop oor:name="Name">
+                <value xml:lang="es">TamañoImpresión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TamañoImpr</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="miniaturefilms">
+          <prop oor:name="Name">
+            <value xml:lang="es">PelículasMiniatura</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="filmID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPelícula</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPelícula</value>
+              </prop>
+            </node>
+            <node oor:name="make">
+              <prop oor:name="Name">
+                <value xml:lang="es">Marca</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Marca</value>
+              </prop>
+            </node>
+            <node oor:name="photosensitivity">
+              <prop oor:name="Name">
+                <value xml:lang="es">Fotosensibilidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Fotosensib</value>
+              </prop>
+            </node>
+            <node oor:name="numberofphotos">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmeroDeFotos</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmFotos</value>
+              </prop>
+            </node>
+            <node oor:name="colorfilm">
+              <prop oor:name="Name">
+                <value xml:lang="es">PelículaColor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PelícColor</value>
+              </prop>
+            </node>
+            <node oor:name="filmexpirationdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaCadPelícula</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCadPel</value>
+              </prop>
+            </node>
+            <node oor:name="datedeveloped">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaRevelado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaRevlad</value>
+              </prop>
+            </node>
+            <node oor:name="developedby">
+              <prop oor:name="Name">
+                <value xml:lang="es">ReveladoPor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">ReveladPor</value>
+              </prop>
+            </node>
+            <node oor:name="camera">
+              <prop oor:name="Name">
+                <value xml:lang="es">Cámara</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Cámara</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="dvdcollection">
+          <prop oor:name="Name">
+            <value xml:lang="es">ColecciónDVD</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="dvdcollectionID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDColección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDColeccn</value>
+              </prop>
+            </node>
+            <node oor:name="movietitle">
+              <prop oor:name="Name">
+                <value xml:lang="es">TítuloDePelícula</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TítulPelíc</value>
+              </prop>
+            </node>
+            <node oor:name="actress">
+              <prop oor:name="Name">
+                <value xml:lang="es">Género</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Género</value>
+              </prop>
+            </node>
+            <node oor:name="actor">
+              <prop oor:name="Name">
+                <value xml:lang="es">Actor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Actor</value>
+              </prop>
+            </node>
+            <node oor:name="director">
+              <prop oor:name="Name">
+                <value xml:lang="es">Director</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Director</value>
+              </prop>
+            </node>
+            <node oor:name="producer">
+              <prop oor:name="Name">
+                <value xml:lang="es">Productor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Productor</value>
+              </prop>
+            </node>
+            <node oor:name="releaseyear">
+              <prop oor:name="Name">
+                <value xml:lang="es">AñoLanzamiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">AñoLanzam</value>
+              </prop>
+            </node>
+            <node oor:name="rating">
+              <prop oor:name="Name">
+                <value xml:lang="es">Clasificación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Clasific</value>
+              </prop>
+            </node>
+            <node oor:name="subject">
+              <prop oor:name="Name">
+                <value xml:lang="es">Asunto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Asunto</value>
+              </prop>
+            </node>
+            <node oor:name="length">
+              <prop oor:name="Name">
+                <value xml:lang="es">Longitud</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Longitud</value>
+              </prop>
+            </node>
+            <node oor:name="dateacquired">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCompra</value>
+              </prop>
+            </node>
+            <node oor:name="purchasedat">
+              <prop oor:name="Name">
+                <value xml:lang="es">CompradoEn</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CompradoEn</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecCompra</value>
+              </prop>
+            </node>
+            <node oor:name="review">
+              <prop oor:name="Name">
+                <value xml:lang="es">Revisar</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Revisar</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="cdcollection">
+          <prop oor:name="Name">
+            <value xml:lang="es">ColecciónCD</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="cdcollectionID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDColección</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDColeccn</value>
+              </prop>
+            </node>
+            <node oor:name="albumtitle">
+              <prop oor:name="Name">
+                <value xml:lang="es">TítuloÁlbum</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TítulÁlbum</value>
+              </prop>
+            </node>
+            <node oor:name="artist">
+              <prop oor:name="Name">
+                <value xml:lang="es">Intérprete</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Intérprete</value>
+              </prop>
+            </node>
+            <node oor:name="musiccategoryID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCategoríaMúsica</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCatMúsic</value>
+              </prop>
+            </node>
+            <node oor:name="recordlabel">
+              <prop oor:name="Name">
+                <value xml:lang="es">Discográfica</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Discográf</value>
+              </prop>
+            </node>
+            <node oor:name="producer">
+              <prop oor:name="Name">
+                <value xml:lang="es">Productor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Productor</value>
+              </prop>
+            </node>
+            <node oor:name="releaseyear">
+              <prop oor:name="Name">
+                <value xml:lang="es">AñoLanzamiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">AñoLanzam</value>
+              </prop>
+            </node>
+            <node oor:name="rating">
+              <prop oor:name="Name">
+                <value xml:lang="es">Clasificación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Clasificac</value>
+              </prop>
+            </node>
+            <node oor:name="format">
+              <prop oor:name="Name">
+                <value xml:lang="es">Formato</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Formato</value>
+              </prop>
+            </node>
+            <node oor:name="numberoftracks">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmDePistas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmPistas</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaDeCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCompra</value>
+              </prop>
+            </node>
+            <node oor:name="purchasedat">
+              <prop oor:name="Name">
+                <value xml:lang="es">CompradoEn</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CompradoEn</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecCompra</value>
+              </prop>
+            </node>
+            <node oor:name="review">
+              <prop oor:name="Name">
+                <value xml:lang="es">Revisar</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Revisar</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="library">
+          <prop oor:name="Name">
+            <value xml:lang="es">Biblioteca</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="bookID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDLibro</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDLibro</value>
+              </prop>
+            </node>
+            <node oor:name="title">
+              <prop oor:name="Name">
+                <value xml:lang="es">Título</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Título</value>
+              </prop>
+            </node>
+            <node oor:name="topic">
+              <prop oor:name="Name">
+                <value xml:lang="es">Género</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Género</value>
+              </prop>
+            </node>
+            <node oor:name="authorID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDAutor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDAutor</value>
+              </prop>
+            </node>
+            <node oor:name="copyrightyear">
+              <prop oor:name="Name">
+                <value xml:lang="es">AñoCopyright</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">AñoCopyrig</value>
+              </prop>
+            </node>
+            <node oor:name="isbnnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmISBN</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmISBN</value>
+              </prop>
+            </node>
+            <node oor:name="publisher">
+              <prop oor:name="Name">
+                <value xml:lang="es">Editor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Editor</value>
+              </prop>
+            </node>
+            <node oor:name="rating">
+              <prop oor:name="Name">
+                <value xml:lang="es">Clasificación</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Clasific</value>
+              </prop>
+            </node>
+            <node oor:name="translator">
+              <prop oor:name="Name">
+                <value xml:lang="es">Traductor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Traductor</value>
+              </prop>
+            </node>
+            <node oor:name="pages">
+              <prop oor:name="Name">
+                <value xml:lang="es">Páginas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Páginas</value>
+              </prop>
+            </node>
+            <node oor:name="datepurchased">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaDeCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCompra</value>
+              </prop>
+            </node>
+            <node oor:name="purchasedat">
+              <prop oor:name="Name">
+                <value xml:lang="es">CompradoEn</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CompradoEn</value>
+              </prop>
+            </node>
+            <node oor:name="purchaseprice">
+              <prop oor:name="Name">
+                <value xml:lang="es">PrecioCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PrecCompra</value>
+              </prop>
+            </node>
+            <node oor:name="covertype">
+              <prop oor:name="Name">
+                <value xml:lang="es">TipoPortada</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TipPortada</value>
+              </prop>
+            </node>
+            <node oor:name="editionnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmEdición</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmEdición</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="authors">
+          <prop oor:name="Name">
+            <value xml:lang="es">Autores</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="authorID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDAutor</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDAutor</value>
+              </prop>
+            </node>
+            <node oor:name="firstname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nombre</value>
+              </prop>
+            </node>
+            <node oor:name="lastname">
+              <prop oor:name="Name">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Apellido</value>
+              </prop>
+            </node>
+            <node oor:name="nationality">
+              <prop oor:name="Name">
+                <value xml:lang="es">Nacionalidad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Nacionalid</value>
+              </prop>
+            </node>
+            <node oor:name="birthdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaNacimiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechaNacim</value>
+              </prop>
+            </node>
+            <node oor:name="birthplace">
+              <prop oor:name="Name">
+                <value xml:lang="es">LugarNacimiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LugarNacim</value>
+              </prop>
+            </node>
+            <node oor:name="dateofdeath">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaFallecimiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FechFallec</value>
+              </prop>
+            </node>
+            <node oor:name="traininglocation">
+              <prop oor:name="Name">
+                <value xml:lang="es">LugarAprendizaje</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">LugrAprend</value>
+              </prop>
+            </node>
+            <node oor:name="majorinfluences">
+              <prop oor:name="Name">
+                <value xml:lang="es">InfluenciasPrincipales</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">InflPrales</value>
+              </prop>
+            </node>
+            <node oor:name="photo">
+              <prop oor:name="Name">
+                <value xml:lang="es">Foto</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Foto</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="accounts">
+          <prop oor:name="Name">
+            <value xml:lang="es">Cuentas</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="accountID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCuenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCuenta</value>
+              </prop>
+            </node>
+            <node oor:name="accountnumber">
+              <prop oor:name="Name">
+                <value xml:lang="es">NúmCuenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NúmCuenta</value>
+              </prop>
+            </node>
+            <node oor:name="accountname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreCuenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombreCta</value>
+              </prop>
+            </node>
+            <node oor:name="accounttypeID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDTipoCuenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDTipoCta</value>
+              </prop>
+            </node>
+            <node oor:name="accounttype">
+              <prop oor:name="Name">
+                <value xml:lang="es">TipoCuenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TipoCuenta</value>
+              </prop>
+            </node>
+            <node oor:name="description">
+              <prop oor:name="Name">
+                <value xml:lang="es">Descripción</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Descripc</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="investments">
+          <prop oor:name="Name">
+            <value xml:lang="es">Inversiones</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="investmentID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDInversión</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDInvers</value>
+              </prop>
+            </node>
+            <node oor:name="accountID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDCuenta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDCuenta</value>
+              </prop>
+            </node>
+            <node oor:name="securityname">
+              <prop oor:name="Name">
+                <value xml:lang="es">NombreSeguridad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">NombreSeg</value>
+              </prop>
+            </node>
+            <node oor:name="securitysymbol">
+              <prop oor:name="Name">
+                <value xml:lang="es">SímboloSeguridad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">SímbSegur</value>
+              </prop>
+            </node>
+            <node oor:name="securitytype">
+              <prop oor:name="Name">
+                <value xml:lang="es">TipoSeguridad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TipoSegur</value>
+              </prop>
+            </node>
+            <node oor:name="sharesowned">
+              <prop oor:name="Name">
+                <value xml:lang="es">AccionesPoseídas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">AccsPoseíd</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="exerciselog">
+          <prop oor:name="Name">
+            <value xml:lang="es">RegistroEjercicio</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="exerciselogID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDRegistro</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDRegistro</value>
+              </prop>
+            </node>
+            <node oor:name="personID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPersona</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPersona</value>
+              </prop>
+            </node>
+            <node oor:name="activity">
+              <prop oor:name="Name">
+                <value xml:lang="es">Actividad</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Actividad</value>
+              </prop>
+            </node>
+            <node oor:name="workoutdate">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaEntrenamiento</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaEntren</value>
+              </prop>
+            </node>
+            <node oor:name="exercisetype">
+              <prop oor:name="Name">
+                <value xml:lang="es">TipoEjercicio</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TipoEjerc</value>
+              </prop>
+            </node>
+            <node oor:name="timeexercised">
+              <prop oor:name="Name">
+                <value xml:lang="es">TiempoEmpleado</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TmpoEmplea</value>
+              </prop>
+            </node>
+            <node oor:name="distancetraveled">
+              <prop oor:name="Name">
+                <value xml:lang="es">DistanciaRecorrida</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">DistRecorr</value>
+              </prop>
+            </node>
+            <node oor:name="restingpulse">
+              <prop oor:name="Name">
+                <value xml:lang="es">PulsoLatente</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PulsLatent</value>
+              </prop>
+            </node>
+            <node oor:name="maximumpulse">
+              <prop oor:name="Name">
+                <value xml:lang="es">PulsoMáximo</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">PulsoMáx</value>
+              </prop>
+            </node>
+            <node oor:name="caloriesburned">
+              <prop oor:name="Name">
+                <value xml:lang="es">CaloríasQuemadas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CalsQuemad</value>
+              </prop>
+            </node>
+            <node oor:name="hourssleep">
+              <prop oor:name="Name">
+                <value xml:lang="es">HorasSueño</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">HorasSueño</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <node oor:name="dietlog">
+          <prop oor:name="Name">
+            <value xml:lang="es">RegistroDieta</value>
+          </prop>
+          <node oor:name="Fields">
+            <node oor:name="dietlogID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDRegistro</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDRegistro</value>
+              </prop>
+            </node>
+            <node oor:name="personID">
+              <prop oor:name="Name">
+                <value xml:lang="es">IDPersona</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">IDPersona</value>
+              </prop>
+            </node>
+            <node oor:name="dietype">
+              <prop oor:name="Name">
+                <value xml:lang="es">TipoDieta</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">TipoDieta</value>
+              </prop>
+            </node>
+            <node oor:name="dateacquired">
+              <prop oor:name="Name">
+                <value xml:lang="es">FechaCompra</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">FchaCompra</value>
+              </prop>
+            </node>
+            <node oor:name="whichmeal">
+              <prop oor:name="Name">
+                <value xml:lang="es">QuéComida</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">QuéComida</value>
+              </prop>
+            </node>
+            <node oor:name="gramscarbohydrates">
+              <prop oor:name="Name">
+                <value xml:lang="es">GramosCarbohidratos</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">GrCarbohid</value>
+              </prop>
+            </node>
+            <node oor:name="gramsprotein">
+              <prop oor:name="Name">
+                <value xml:lang="es">GramosProteína</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">GrProteína</value>
+              </prop>
+            </node>
+            <node oor:name="gramsfat">
+              <prop oor:name="Name">
+                <value xml:lang="es">GramosGrasa</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">GramoGrasa</value>
+              </prop>
+            </node>
+            <node oor:name="totalcalories">
+              <prop oor:name="Name">
+                <value xml:lang="es">CaloríasTotales</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">CalsTotal</value>
+              </prop>
+            </node>
+            <node oor:name="milligramssodium">
+              <prop oor:name="Name">
+                <value xml:lang="es">MiligramosSodio</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">MgrSodio</value>
+              </prop>
+            </node>
+            <node oor:name="vitamins">
+              <prop oor:name="Name">
+                <value xml:lang="es">Vitaminas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Vitaminas</value>
+              </prop>
+            </node>
+            <node oor:name="notes">
+              <prop oor:name="Name">
+                <value xml:lang="es">Notas</value>
+              </prop>
+              <prop oor:name="ShortName">
+                <value xml:lang="es">Notas</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

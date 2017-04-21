@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="BibliographyCommands" oor:package="org.openoffice.Office.UI">
+  <node oor:name="UserInterface">
+    <node oor:name="Commands">
+      <node oor:name=".uno:Bib/Mapping">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Asignación de columnas...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Bib/standardFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Filtrar...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Bib/DeleteRecord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Borrar ~registro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Bib/InsertRecord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Registro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Bib/sdbsource">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Elegir origen de datos...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Bib/source">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Tabla</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Bib/query">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Clave de búsqueda</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Bib/autoFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Autofiltro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Bib/removeFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Quitar filtro</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

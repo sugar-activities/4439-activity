@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="DrawImpressCommands" oor:package="org.openoffice.Office.UI">
+  <node oor:name="UserInterface">
+    <node oor:name="Commands">
+      <node oor:name=".uno:Polygon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Polígono, relleno</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ColorView">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Ver blanco y negro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RenamePage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Cambiar nombre a página</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RenameLayer">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Cambiar nombre</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Presentation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Presentación</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RehearseTimings">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Presentación con ~cronometraje</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Dia">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Transición de diapositivas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowSlide">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Mos~trar diapositiva</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HideSlide">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">O~cultar diapositiva</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TextAttributes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Texto...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PagesPerRow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dipositivas por fila</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TextFitToSizeTool">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Ajustar texto al marco</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:VerticalTextFitToSizeTool">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Ajustar texto vertical al marco</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Objects3DToolbox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Objetos 3D</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Cube">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Cubo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Sphere">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Esfera</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Cylinder">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Cilindro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Cone">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Cono</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Cyramid">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Pirámide</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueEditMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Puntos de ~adhesión</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueInsertPoint">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Insertar punto de adhesión</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GluePercent">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Posición relativa del punto de adhesión</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueEscapeDirection">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dirección de salida</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueHorzAlignCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Punto de adhesión horizontal centro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueHorzAlignLeft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Punto de adhesión horizontal izquierda</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueHorzAlignRight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Punto de adhesión horizontal derecha</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueVertAlignCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Punto de adhesión vertical centro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueVertAlignTop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Punto de adhesión vertical arriba</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueVertAlignBottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Punto de adhesión vertical hacia abajo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Shell3D">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Cáscara</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Torus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Toro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HalfSphere">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Semiesfera</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueEscapeDirectionLeft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dirección de salida izquierda</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueEscapeDirectionRight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dirección de salida derecha</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueEscapeDirectionTop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dirección de salida arriba</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GlueEscapeDirectionBottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dirección de salida abajo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertToolbox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Insertar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Morphing">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Disolución...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MeasureAttributes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dimensiones...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GridFront">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Cuadrícula al ~frente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HelplinesVisible">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Mostrar guías</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HelplinesFront">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Guías al ~frente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:BeforeObject">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Delante del objeto</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviewWindow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Vista previa</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CustomAnimation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Animación personalizada...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CustomAnimationSchemes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Efectos de animación...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SlideChangeWindow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Transición de diapositivas...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorAttributes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Conector...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PresentationDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">C~onfiguración de la presentación...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Hyphenation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Separación silábica</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NewRouting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Restablecer recorrido</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DuplicatePage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">D~uplicar página</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ExpandPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Página a partir de esquema</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SummaryPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Página resumen</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LeaveAllGroups">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Abandonar todos los grupos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ParaspaceIncrease">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Aumentar espacio</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ParaspaceDecrease">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Disminuir espacio </value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SlideMasterPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Patrón de ~diapositivas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HandoutMasterPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Patrón de documentos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NotesMasterPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Pa~trón de notas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TitleMasterPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Patrón de diapositivas para títulos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPageQuick">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Insertar página, directo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertDateFieldVar">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">F~echa (variable)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertDateFieldFix">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Fecha (fija)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertTimeFieldVar">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">H~ora (variable)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertTimeFieldFix">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Hora (fija)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPageField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Número de pág~ina</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPagesField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Contar páginas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ModifyField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Campo...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertFileField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Nombre de archivo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertAuthorField">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">A~utor</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CustomShowDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Presentación personalizada...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OutputQualityColor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Color</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OutputQualityGrayscale">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Escala de grises</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OutputQualityBlackWhite">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Blanco y negro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviewQualityColor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Color</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviewQualityGrayscale">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Escala de grises</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviewQualityBlackWhite">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Blanco y negro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertInto3D">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">En ~3D</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertInto3DLatheFast">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">En cuerpo de rotación 3~D</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertIntoBitmap">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">En ~mapa de bits</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertIntoMetaFile">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">En ~MetaFile</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PackAndGo">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Comprimir</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:convert_to_contour">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">En ~contorno</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditHyperlink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Hiperenlace...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageSetup">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">P~ágina...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PasteSpecial">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Pegado ~especial...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CopyObjects">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Duplicar...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ManageLinks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Vínculos...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertInto3DLathe">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">En cuerpo de rotación 3D</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DrawingMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Modo Dibujo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OutlineMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Esq~uema</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OutputQualityContrast">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Contraste</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DiaMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Organi~zador de diapositivas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviewQualityContrast">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Contraste</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">D~iapositiva</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ImportFromFile">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Archivo...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ZoomPanning">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Desplazar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PixelMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Modo píxel</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ObjectPosition">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Posición</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Combine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Com~binar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ObjectTitleDescription">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Descripción...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NameGroup">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Nombre...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorToolbox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Forward">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Traer a~delante</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Backward">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Enviar a~trás</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MirrorVert">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Vertical</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MirrorHorz">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Horizontal</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ChangeBezier">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">En ~curva</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ChangePolygon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">En ~polígono</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CapturePoint">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">I~nsertar punto/línea de captura...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowRuler">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Regla</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertLayer">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Capa...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ModifyPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Diseño de diapositi~va</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ModifyLayer">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Capa...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Normal</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LayerMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Capa</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MeasureLine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Línea de dimensiones</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MasterPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Principal</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DiaEffect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Efecto diapositiva</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DiaSpeed">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Velocidad</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DiaAuto">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Transición automática</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DiaTime">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Tiempo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Connector">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ActionMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Permitir interacciones</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AnimationObjects">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Imagen animada...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AnimationEffects">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Interacción...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PresentationLayout">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Es~tilo de diapositiva...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NotesMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Página de notas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HandoutMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Págin~a de documento</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeletePage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">E~liminar diapositiva</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteLayer">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Borrar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Dismantle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Desco~mbinar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageStatus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Página/nivel</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LayoutStatus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Diseño</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CrookRotate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Posicionar en círculo ( en perspectiva )</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CrookSlant">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Posicionar en cículo (inclinar)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CrookStretch">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Posicionar en círculo (distorsionado)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Connect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Unir</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Break">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Quebrar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AdvancedMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Efectos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InteractiveTransparence">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Transparencia</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InteractiveGradient">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Gradiente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Shear">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Distorsionar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:BehindObject">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Detrás del objeto</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ReverseOrder">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Invertir</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorArrowStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector con flecha al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorArrowEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector con flecha al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorArrows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector con flechas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCircleStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector con círculo al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCircleEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector con círculo al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCircles">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector con círculos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TextToolbox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Texto</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector directo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RectangleToolbox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Rectángulo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLineArrowStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector directo con flecha al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EllipseToolbox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Elipse</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLineArrowEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector directo con flecha al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineToolbox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Curva</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLineArrows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector directo con flechas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLineCircleStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector directo con círculo al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLineCircleEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector lineal con círculo al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLineCircles">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector directo con círculos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCurve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector curvo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCurveArrowStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector curvo con flecha al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCurveArrowEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector curvo con flecha al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCurveArrows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector curvo con flechas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCurveCircleStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector curvo con círculo al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCurveCircleEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector curvo con círculo al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorCurveCircles">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector curvo con círculos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLines">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector lineal</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLinesArrowStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector lineal con flecha al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLinesArrowEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector lineal con flecha al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLinesArrows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector lineal con flechas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLinesCircleStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector lineal con círculo al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLinesCircleEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector lineal con círculo al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConnectorLinesCircles">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Conector lineal con círculos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GraphicDraft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Comodín de imágenes externas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FillDraft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Modo contorno</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TextDraft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Comodín de texto</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineDraft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Mostrar sólo líneas finas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HandlesDraft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Agarraderas sencillas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SolidCreate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Crear objetos con atributos</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HelplinesUse">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Ajustar a las guías</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SnapBorder">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Capturar en márgenes de la página</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SnapFrame">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Capturar en marco del objeto</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SnapPoints">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Capturar en puntos del objeto</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:QuickEdit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Permitir edición rápida</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PickThrough">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Solo área de texto seleccionable</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTo1BitThreshold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Valor umbral de 1bit</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTo1BitMatrix">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dithering (difusión) 1 bit</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTo4BitGrays">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Escala de grises 4 bits</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTo4BitColors">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Paleta de colores de 4 bits</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTo8BitGrays">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Escala de grises 8 bits</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertTo8BitColors">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Paleta de colores de 8 bits</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertToTrueColor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Colores reales de 24 bit</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:BigHandles">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Agarraderas grandes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DoubleClickTextEdit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Pulsar dos veces para editar texto</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ClickChangeRotation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Modo rotación al pulsar sobre el objeto</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ArrowsToolbox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Líneas y flechas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineArrowStart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Línea con flecha al comienzo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineArrowEnd">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Línea con flecha al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineArrows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Línea con puntas de flechas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineArrowCircle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Línea con flecha/círculo al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineCircleArrow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Línea con flecha/círculo al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineArrowSquare">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Línea con flecha/cuadrado al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LineSquareArrow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Línea con flecha/cuadrado al final</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Mirror">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Voltear</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertMasterPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Nuevo documento maestro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteMasterPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Borrar documento maestro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RenameMasterPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Cambiar nombre de documento maestro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CloseMasterView">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Cerrar vista de documento maestro</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendMailDocAsMS">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Correo electrónico como presentación de Microsoft ~PowerPoint...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendMailDocAsOOo">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Correo electrónico ~como presentación de OpenDocument...</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Popups">
+      <node oor:name=".uno:ModifyMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Modificar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WorkspaceMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Espacio de ~trabajo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MirrorMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Reflejar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviewDisplayQualityMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Calidad de ~previsualización</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LayerMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Capa</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GridMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Cuadrícula</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConvertMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Convertir</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ArrangeMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Posición</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DisplayQualityMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Co~lor/Escala de grises</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SlideShowMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Presentación</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GroupMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Grupo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Enviar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TemplatesMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">P~lantillas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SnapLinesMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Guías</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MasterPageMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Fondo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MasterLayoutsMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Diseños del pat~rón</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MasterLayouts">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">E~lementos maestros...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MasterLayoutsNotes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Diseño del patrón de notas...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MasterLayoutsHandouts">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Diseño del patrón de documento...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HeaderAndFooter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Encabezado ~y pie de página...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertPageNumber">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Número de pág~ina...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertDateAndTime">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Fecha y ~hora...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NormalMultiPaneGUI">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Normal</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SlideSorterMultiPaneGUI">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Organi~zador de diapositivas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LeftPaneImpress">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Panel de diapo~sitivas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LeftPaneDraw">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Panel Página</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RightPane">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Panel de ta~reas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MergeCells">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Unir celdas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SplitCell">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Dividir celdas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:OptimizeTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Optimar</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DistributeColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Distribuir Columnas Equitativamente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DistributeRows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Distribuir filas equitativamente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CellVertBottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Abajo</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CellVertCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Centrado (vertical)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CellVertTop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Superior</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertRows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Insertar fila</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertRowDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Filas...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Insertar columna</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertColumnDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Columnas...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteRows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Eliminar línea</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="es">~Filas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Eliminar columna</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="es">~Columnas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Seleccionar tabla</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="es">~Tabla</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EntireColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Seleccionar columna</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="es">~Columnas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EntireRow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Selecionar fila</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="es">~Filas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Propiedades de la ta~bla...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoSum">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Suma</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableSort">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">O~rdenar...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Tabla...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Grow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Aumentar fuente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Shrink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Reducir fuente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertAnnotation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Comen~ntario</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowAnnotations">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Come~ntarios</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteAnnotation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">~Eliminar comentarios</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteAllAnnotation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Eliminar ~todos los comentarios</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NextAnnotation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Siguiente comentario</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviousAnnotation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="es">Comentario anterior</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>
